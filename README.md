@@ -1,2 +1,2 @@
 # snuchhi.github.io
-Portfolio-Fullstack Porject1
+Portfolio-Fullstack Project1
