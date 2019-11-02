@@ -12,7 +12,9 @@ header {
     right: 0;
     height:50px;
     line-height:50px;
-    background-color: rgb(211, 211, 138);
+    background-color: rgb(172, 172, 93);
+    font-family: cursive;
+    
     
 }
 
@@ -53,12 +55,11 @@ section {
     color:rgb(189, 52, 75);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.8cm;
-}
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    border: 3px solid #8AC007;
 
-.projects
-{
-    text-align: left;
-    justify-content: left;
 }
 
 
@@ -92,12 +93,35 @@ header a {
 
 }
 
+.leftalign { 
+    float:left;  
+    width:25%; 
+    height:280px; 
+} 
+.rightalign{ 
+    float:right; 
+    width:25%; 
+    height:280px; 
+}
+
+.leftalign h3, .rightalign h3
+{
+    background-color: rgb(172, 172, 93);
+    font-family: cursive;
+}
+
+.section-inner2 h2, .section-inner3 
+{
+    font-family: fantasy;
+}
+
+
 #home {
     background-image: linear-gradient(rgba(26, 43, 38, 0.75),rgba(255, 255, 255, 0.644)), url('/images_profile/codingcoffee.jpg');
 }
 
 #about {
-    background-image: linear-gradient(rgba(16, 20, 22, 0.452),rgba(232, 234, 235, 0.637)), url('/images_profile/greyscal.jpg');
+    background-image: linear-gradient(rgba(16, 20, 22, 0.452),rgba(232, 234, 235, 0.637)), url('/images_profile/abstract.jpg');
 }
 
 #contact {
