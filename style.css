@@ -12,7 +12,7 @@ header {
     right: 0;
     height:50px;
     line-height:50px;
-    background-color: rgb(172, 172, 93);
+    background-color: rgb(196, 196, 196);
     font-family: cursive;
     
     
@@ -52,13 +52,13 @@ section {
 
 .mywork
 {
-    color:rgb(189, 52, 75);
+    color:rgb(80, 94, 177);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.8cm;
     position: absolute;
     width: 50%;
     bottom: 0;
-    border: 3px solid #8AC007;
+   
 
 }
 
@@ -89,7 +89,8 @@ section h3 {
 
 header a {
     text-decoration:none;
-    color: indianred;
+    color: rgb(45, 98, 211);
+
 
 }
 
@@ -113,6 +114,7 @@ header a {
 .section-inner2 h2, .section-inner3 
 {
     font-family: fantasy;
+  
 }
 
 
