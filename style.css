@@ -1,7 +1,7 @@
 body {
     margin: 0;
     margin-top: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: "Lucida Console", Monaco, monospace
 }
 
 header {
@@ -12,13 +12,12 @@ header {
     right: 0;
     height:50px;
     line-height:50px;
-    background-color: #eee;
+    background-color: rgb(211, 211, 138);
+    
 }
 
 header * {
     display: inline;
-    color: teal;
-
 }
 
 header ul {
@@ -36,18 +35,39 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    overflow: hidden;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-attachment: fixed;   
 }
 
-#home .profile-img {
-    width: 400px;
-    border-radius: 45%;
+#about
+{
+    justify-content: center;
+    color:black;
+}
+
+.mywork
+{
+    color:rgb(189, 52, 75);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8cm;
+}
+
+.projects
+{
+    text-align: left;
+    justify-content: left;
+}
+
+
+#home .profile-img2 {
+    width: 300px;
+    border-radius: 50%;
 
 }
+
 
 footer {
     text-align: center;
@@ -72,15 +92,14 @@ header a {
 
 }
 
-/* Add everything below here */
 #home {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    background-image: linear-gradient(rgba(26, 43, 38, 0.75),rgba(255, 255, 255, 0.644)), url('/images_profile/codingcoffee.jpg');
 }
 
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+    background-image: linear-gradient(rgba(16, 20, 22, 0.452),rgba(232, 234, 235, 0.637)), url('/images_profile/greyscal.jpg');
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+    background-image: linear-gradient(rgba(251, 249, 252, 0.466),rgba(255,255,255,0.75)), url('/images_profile/canyon.jpg');
 }
